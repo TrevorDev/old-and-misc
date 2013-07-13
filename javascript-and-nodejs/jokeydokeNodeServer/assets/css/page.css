@@ -1,0 +1,32 @@
+/*.navbar .nav > li > a {
+  text-decoration: none;
+  text-shadow: 0 0px 0 #ffffff;
+}
+.brand
+{
+  background: url(/assets/img/elogo.jpg) no-repeat left center;
+  background-size: 40px 40px;
+  height: 20px;
+  width: 100px;
+}
+            .navbar-inner {
+              background-color: #CDD0D5; 
+              background-image: none;
+              background-repeat: no-repeat;
+              filter: none;
+            }*/
+
+            textarea { border:1px solid #999999; min-width:98%; max-width:98%; } /*
+            Sticky footer styles --------------------------------------------------
+            */ html, body { height: 100%;background-color:#8E9AA3;/*   The html and body elements cannot have
+            any padding or margin. */ } /* Wrapper for page content to push down footer
+            */ #wrap { min-height: 100%; height: auto !important; height: 100%; /*
+            Negative indent footer by it's height */ margin: 0 auto -60px; } /* Set
+            the fixed height of the footer here */ #push, #footer { height: 60px; }
+            #footer { background-color: #111111; } /* CCD0D5 Lastly, apply responsive CSS
+            fixes as necessary */ @media (max-width: 767px) { #footer { margin-left:
+            -20px; margin-right: -20px; padding-left: 20px; padding-right: 20px; }
+            } /* Custom page CSS --------------------------------------------------
+            */ /* Not required for template or sticky footer method. */ #wrap > .container
+            { padding-top: 60px; } .container .credit { margin: 20px 0; } code { font-size:
+            80%; }

@@ -1,0 +1,93 @@
+<? node include(html/common/top.html) ?>
+                <!-- Begin page content -->
+                <div class="container">
+                    <div class="well" style="background-color:#CEE7FF">
+                    <div  class="row-fluid">
+                        <div class="span6">
+                            <form class="form-signin" method="post" action="/signUp">
+                                <div class="page-header">
+                            <h1>
+                            Sign up today!
+                            </h1> 
+                            </div>
+
+                           
+                            <input type="text" class="input-block-level" placeholder="Full name" name="name">
+                            <input type="text" class="input-block-level" placeholder="Email address"
+                            name="email">
+                            <input type="password" class="input-block-level" placeholder="Password"
+                            name="password">
+                            <label class="checkbox">
+                            <input type="checkbox" value="store" name="check">
+                            Remember me
+                            </label>
+                            <br>
+                            <button class="button" type="submit">
+                            Sign Up
+                            </button>
+                            </form>
+                            <p>
+                            Are you looking for talented people?<br>
+                            <a href="http://trevordev.com/resumePage.php">Create a business account</a>
+                            to allow users to easily apply to your business.
+                            </p>
+                        </div>
+                        <div class="span6">
+                            <div class="page-header">
+                            <h1>
+                            Your Online Business Card.
+                            </h1>
+                            </div>
+                            <p class="lead">
+                            Browse, create and share talent with the world.
+                            </p>
+                            
+
+                            <div  class="row-fluid">
+                            <div class="span2 text-center">
+                                <i class="icon-file-alt icon-4x"></i>
+                            </div>
+                                <div class="span10"><h5><a href="#">Resume Boost</a></h5> Easily create and edit your amazing resume.
+                            </div>
+                            </div>
+<br>
+                            <div  class="row-fluid">
+                            <div class="span2 text-center">
+                                <i class="icon-briefcase icon-4x"></i>
+                            </div>
+                                <div class="span10"><h5><a href="#">Portfolio Slate</a></h5> Host and manage your portfolio in the cloud.
+                            </div>
+                            </div>
+<br>
+                            <div  class="row-fluid">
+                            <div class="span2 text-center">
+                                <i class="icon-bolt icon-4x"></i>
+                            </div>
+                                <div class="span10"><h5><a href="#">Apply Bolt</a></h5> Apply to hundreds of companies without filling out another form.
+                            </div>
+                            </div>
+                            
+                        </div>
+                        </div>
+                    </div>
+                    <div  class="row-fluid text-center">
+                        <br>
+                        <h3><? node siteName() ?> is free and always will be.</h3>
+                    </div>
+                    <!--<div class="row">
+                        <div class="span12">
+                            <div class="well" ng-controller="CombinationCtrl">
+                                 <h2>Total buttons: {{getTotalbuttons()}}</h2>
+                                        <button class="button" ng-repeat="button in buttons">
+                                            click
+                                        </button>
+                                    
+                            </div>
+                           
+                        </div>
+                    </div>-->
+                </div>
+<? node include(html/common/closeTop.html) ?>
+<? node include(html/common/footer.html) ?>
+<? node include(html/common/scripts.html) ?>
+<? node include(html/common/bottom.html) ?>

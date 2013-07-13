@@ -1,0 +1,19 @@
+{
+	"name": "hello-world",
+	"description": "hello world test app",
+	"version": "0.0.1",
+	"engines": {
+	    "node": "0.10.x",
+	    "npm":  "1.2.x"
+  	},
+	"private": true,
+	"dependencies": {
+		"express": "x.x",
+		"mongodb": "x.x",
+		"validator": "x.x",
+		"bcrypt": "x.x",
+		"password-hash": "x.x",
+		"mongoose": "x.x",
+		"escape-html": "x.x"
+	}
+}
