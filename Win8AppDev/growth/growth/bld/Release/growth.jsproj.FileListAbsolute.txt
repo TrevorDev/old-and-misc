@@ -1,0 +1,13 @@
+D:\Dev\growth\growth\bin\Release\resources.pri
+D:\Dev\growth\growth\bin\Release\AppxManifest.xml
+D:\Dev\growth\growth\bin\Release\growth.build.appxrecipe
+D:\Dev\growth\growth\bld\Release\priconfig.xml
+D:\Dev\growth\growth\bld\Release\layout.resfiles
+D:\Dev\growth\growth\bld\Release\resources.resfiles
+D:\Dev\growth\growth\bld\Release\pri.resfiles
+D:\Dev\growth\growth\bld\Release\LanguageQualifiers.txt
+D:\Dev\growth\growth\bld\Release\ProjectArchitectures.txt
+D:\Dev\growth\growth\bld\Release\priconfig.xml.intermediate
+D:\Dev\growth\growth\bld\Release\layout.resfiles.intermediate
+D:\Dev\growth\growth\bld\Release\resources.resfiles.intermediate
+D:\Dev\growth\growth\bld\Release\pri.resfiles.intermediate

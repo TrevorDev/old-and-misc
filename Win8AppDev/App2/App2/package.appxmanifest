@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="41284TrevorDev.IceCreamDefender" Version="1.0.0.1" Publisher="CN=02E1AA33-5B2A-40DA-A091-70C4D10A4B2E" />
+  <Properties>
+    <DisplayName>Ice Cream Defender</DisplayName>
+    <PublisherDisplayName>TrevorDev</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Ice Cream Defender" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Save the Ice Cream by throwing small ice cream cones at the grumps." ForegroundText="light" BackgroundColor="#7092BE">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="images\splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

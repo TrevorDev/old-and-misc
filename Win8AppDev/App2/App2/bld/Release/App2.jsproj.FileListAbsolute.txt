@@ -1,0 +1,10 @@
+D:\Dev\App2\App2\bin\Release\resources.pri
+D:\Dev\App2\App2\bin\Release\AppxManifest.xml
+D:\Dev\App2\App2\bin\Release\App2.build.appxrecipe
+D:\Dev\App2\App2\bin\Release\MicrosoftAdvertising.winmd
+D:\Dev\App2\App2\bld\Release\priconfig.xml
+D:\Dev\App2\App2\bld\Release\layout.resfiles
+D:\Dev\App2\App2\bld\Release\resources.resfiles
+D:\Dev\App2\App2\bld\Release\pri.resfiles
+D:\Dev\App2\App2\bld\Release\LanguageQualifiers.txt
+D:\Dev\App2\App2\bld\Release\ProjectArchitectures.txt

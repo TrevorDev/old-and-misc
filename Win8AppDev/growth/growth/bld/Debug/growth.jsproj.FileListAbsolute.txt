@@ -1,0 +1,13 @@
+D:\Dev\growth\growth\bin\Debug\resources.pri
+D:\Dev\growth\growth\bin\Debug\AppxManifest.xml
+D:\Dev\growth\growth\bin\Debug\growth.build.appxrecipe
+D:\Dev\growth\growth\bld\Debug\priconfig.xml.intermediate
+D:\Dev\growth\growth\bld\Debug\layout.resfiles.intermediate
+D:\Dev\growth\growth\bld\Debug\resources.resfiles.intermediate
+D:\Dev\growth\growth\bld\Debug\pri.resfiles.intermediate
+D:\Dev\growth\growth\bld\Debug\priconfig.xml
+D:\Dev\growth\growth\bld\Debug\layout.resfiles
+D:\Dev\growth\growth\bld\Debug\resources.resfiles
+D:\Dev\growth\growth\bld\Debug\pri.resfiles
+D:\Dev\growth\growth\bld\Debug\LanguageQualifiers.txt
+D:\Dev\growth\growth\bld\Debug\ProjectArchitectures.txt

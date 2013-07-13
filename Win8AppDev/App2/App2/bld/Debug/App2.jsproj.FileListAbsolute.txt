@@ -1,0 +1,14 @@
+D:\Dev\App2\App2\bin\Debug\resources.pri
+D:\Dev\App2\App2\bin\Debug\AppxManifest.xml
+D:\Dev\App2\App2\bin\Debug\App2.build.appxrecipe
+D:\Dev\App2\App2\bld\Debug\priconfig.xml.intermediate
+D:\Dev\App2\App2\bld\Debug\layout.resfiles.intermediate
+D:\Dev\App2\App2\bld\Debug\resources.resfiles.intermediate
+D:\Dev\App2\App2\bld\Debug\pri.resfiles.intermediate
+D:\Dev\App2\App2\bld\Debug\priconfig.xml
+D:\Dev\App2\App2\bld\Debug\layout.resfiles
+D:\Dev\App2\App2\bld\Debug\resources.resfiles
+D:\Dev\App2\App2\bld\Debug\pri.resfiles
+D:\Dev\App2\App2\bld\Debug\LanguageQualifiers.txt
+D:\Dev\App2\App2\bld\Debug\ProjectArchitectures.txt
+D:\Dev\App2\App2\bin\Debug\MicrosoftAdvertising.winmd

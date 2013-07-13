@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Growth
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!-- CSS -->
+        <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+        <link href="/css/default.css" rel="stylesheet" />
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <style type="text/css">
+            textarea { border:1px solid #999999; min-width:98%; max-width:98%; } /*
+            Sticky footer styles --------------------------------------------------
+            */ html, body { background-color: #6E7F89; height: 100%; /* The html and
+            body elements cannot have any padding or margin. */ } /* Wrapper for page
+            content to push down footer */ #wrap { min-height: 100%; height: auto !important;
+            height: 100%; /* Negative indent footer by it's height */ margin: 0 auto
+            -60px; } /* Set the fixed height of the footer here */ #push, #footer {
+            height: 60px; } #footer { background-color: #000000; } /* Lastly, apply
+            responsive CSS fixes as necessary */ @media (max-width: 767px) { #footer
+            { margin-left: -20px; margin-right: -20px; padding-left: 20px; padding-right:
+            20px; } } /* Custom page CSS --------------------------------------------------
+            */ /* Not required for template or sticky footer method. */ #wrap > .container
+            { padding-top: 60px; } .container .credit { margin: 20px 0; } code { font-size:
+            80%; } .graph-container { box-sizing: border-box; width: 100%; height: 220px;
+            padding: 0px 15px 15px 15px; margin: 15px auto 30px auto; border: 3px
+            solid #000; background-color: #8899CC; box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+            -o-box-shadow: 0 3px 10px rgba(0,0,0,0.1); -ms-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            -moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1); -webkit-box-shadow: 0 3px
+            10px rgba(0,0,0,0.1); } .graph-placeholder { width: 100%; height: 70%;
+            font-size: 14px; line-height: 14px; }
+        </style>
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="assets/js/html5shiv.js">
+                                                                                                                                                
+            </script>
+        <![endif]-->
+        <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+    </head>
+    
+    <body>
+        <!-- Part 1: Wrap all page content here -->
+        <div id="wrap">
+            <!-- Fixed navbar -->
+            <div class="navbar navbar-inverse">
+                <div class="navbar-inner">
+                    <div class="container-fluid">
+                        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar">
+                            </span>
+                            <span class="icon-bar">
+                            </span>
+                            <span class="icon-bar">
+                            </span>
+                        </button>
+                        <a class="brand" href="#">Growth</a>
+                        <!--/.nav-collapse -->
+                    </div>
+                </div>
+            </div>
+            <!-- Begin page content -->
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <div class="well">
+                            <h1 id='score'>
+                            </h1>
+                            <button id='work' class="btn btn-primary" type="button">
+                                <i class="icon-briefcase icon-white">
+                                </i>
+                                Work
+                            </button>
+                            <button id='invest' class="btn btn-primary" type="button">
+                                <i class="icon-signal icon-white">
+                                </i>
+                                Invest
+                            </button>
+                            <button id='gainInterest' class="btn btn-primary" type="button">
+                                <i class="icon-arrow-up icon-white">
+                                </i>
+                                Gain Interest
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id='invests' class="row">
+                    <div class="span4">
+                        <div class="graph-container">
+                            <h4 class='shareNum' style="text-align:center;">Shares owned: 0</h4>
+                            <div id="placeholder" class="graph-placeholder">
+                            </div>
+                            <table style="width:100%">
+                            <tr style="width:100%">
+                            <td>
+                                <h4 class='graphValue'>Cost: $100</h4>
+                            </td>
+                            <td>
+                                <div style="text-align:right;">
+                                    <button class="btn btn-primary buyInvestB" type="button">
+                                        <i class="icon-circle-arrow-up icon-white">
+                                        </i> buy
+                                    </button>
+                                        <button class="btn btn-primary sellInvestB" type="button">
+                                        <i class="icon-circle-arrow-down icon-white">
+                                        </i> sell
+                                    </button>
+                                </div>
+                            </td>
+                            </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="graph-container">
+                            <h4 class='shareNum' style="text-align:center;">Shares owned: 0</h4>
+                            <div id="Div1" class="graph-placeholder">
+                            </div>
+                            <table style="width:100%">
+                            <tr style="width:100%">
+                            <td>
+                                <h4 class='graphValue'>Cost: $100</h4>
+                            </td>
+                            <td>
+                                <div style="text-align:right;">
+                                    <button class="btn btn-primary buyInvestB" type="button">
+                                        <i class="icon-circle-arrow-up icon-white">
+                                        </i> buy
+                                    </button>
+                                        <button class="btn btn-primary sellInvestB" type="button">
+                                        <i class="icon-circle-arrow-down icon-white">
+                                        </i> sell
+                                    </button>
+                                </div>
+                            </td>
+                            </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="graph-container">
+                            <h4 class='shareNum' style="text-align:center;">Shares owned: 0</h4>
+                            <div id="Div2" class="graph-placeholder">
+                            </div>
+                            <table style="width:100%">
+                            <tr style="width:100%">
+                            <td>
+                                <h4 class='graphValue'>Cost: $100</h4>
+                            </td>
+                            <td>
+                                <div style="text-align:right;">
+                                    <button class="btn btn-primary buyInvestB" type="button">
+                                        <i class="icon-circle-arrow-up icon-white">
+                                        </i> buy
+                                    </button>
+                                        <button class="btn btn-primary sellInvestB" type="button">
+                                        <i class="icon-circle-arrow-down icon-white">
+                                        </i> sell
+                                    </button>
+                                </div>
+                            </td>
+                            </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div id='Div3' class="row">
+                	<div class="span12">
+                    <div class="well" id="interests">
+                            <button class="btn btn-primary gainInterestLevelB" type="button">
+                                <i class="icon-arrow-up icon-white">
+                                </i>
+                            </button>
+                            <button class="btn btn-primary gainInterestLevelB" type="button">
+                                <i class="icon-arrow-up icon-white">
+                                </i>
+                            </button>
+                            <button class="btn btn-primary gainInterestLevelB" type="button">
+                                <i class="icon-arrow-up icon-white">
+                                </i>
+                            </button>
+                            <button class="btn btn-primary gainInterestLevelB" type="button">
+                                <i class="icon-arrow-up icon-white">
+                                </i>
+                            </button>
+                            <button class="btn btn-primary gainInterestLevelB" type="button">
+                                <i class="icon-arrow-up icon-white">
+                                </i>
+                            </button>
+                            <button class="btn btn-primary gainInterestLevelB" type="button">
+                                <i class="icon-arrow-up icon-white">
+                                </i>
+                            </button>
+                            <button class="btn btn-primary gainInterestLevelB" type="button">
+                                <i class="icon-arrow-up icon-white">
+                                </i>
+                            </button>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <div id="push">
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <p class="muted credit">
+                    App created by
+                    <a href="http://trevordev.com">Trevor Baron</a>
+                    .
+                </p>
+            </div>
+        </div>
+        <script src="assets/js/jquery-1.9.1.min.js">
+                
+        </script>
+        <script language="javascript" type="text/javascript" src="assets/js/jquery.flot.js">
+                
+        </script>
+        <script src="assets/js/bootstrap.min.js">
+            
+        </script>
+        <script src="assets/js/bootstrap-limit.js">
+                                                                                   
+        </script>
+        <script type="text/javascript" src="BigInt.js">
+                
+        </script>
+        <script type="text/javascript" src="game.js">
+            
+        </script>
+        <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+        <script src="/js/default.js"></script>
+    </body>
+
+</html>

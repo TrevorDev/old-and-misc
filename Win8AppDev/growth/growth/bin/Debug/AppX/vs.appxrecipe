@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>TREVORDEV</Machine>
+    <WindowsUser>Trev</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>8729BFF1816BEA3442F615E60E2A911571277ECF929AE73EAA58D849E91749A9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>41284TrevorDev.Growth_1.0.0.5_neutral__fsvm5rpq6vbj4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>41284TrevorDev.Growth_fsvm5rpq6vbj4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>41284TrevorDev.Growth</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=02E1AA33-5B2A-40DA-A091-70C4D10A4B2E</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.5</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Dev\growth\growth\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-12T05:55:56.805</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\css\bootstrap-responsive.css">
+      <PackagePath>assets\css\bootstrap-responsive.css</PackagePath>
+      <Modified>2013-03-12T05:43:30.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\css\bootstrap-responsive.min.css">
+      <PackagePath>assets\css\bootstrap-responsive.min.css</PackagePath>
+      <Modified>2013-03-12T05:43:30.189</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\css\bootstrap.css">
+      <PackagePath>assets\css\bootstrap.css</PackagePath>
+      <Modified>2013-03-12T05:43:30.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\css\bootstrap.min.css">
+      <PackagePath>assets\css\bootstrap.min.css</PackagePath>
+      <Modified>2013-03-12T05:43:30.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\css\docs.css">
+      <PackagePath>assets\css\docs.css</PackagePath>
+      <Modified>2013-03-12T05:43:30.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2012-07-26T19:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\ico\apple-touch-icon-114-precomposed.png">
+      <PackagePath>assets\ico\apple-touch-icon-114-precomposed.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\ico\apple-touch-icon-144-precomposed.png">
+      <PackagePath>assets\ico\apple-touch-icon-144-precomposed.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\ico\apple-touch-icon-57-precomposed.png">
+      <PackagePath>assets\ico\apple-touch-icon-57-precomposed.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\ico\apple-touch-icon-72-precomposed.png">
+      <PackagePath>assets\ico\apple-touch-icon-72-precomposed.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\bs-docs-bootstrap-features.png">
+      <PackagePath>assets\img\bs-docs-bootstrap-features.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\bs-docs-masthead-pattern.png">
+      <PackagePath>assets\img\bs-docs-masthead-pattern.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\bs-docs-responsive-illustrations.png">
+      <PackagePath>assets\img\bs-docs-responsive-illustrations.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\bs-docs-twitter-github.png">
+      <PackagePath>assets\img\bs-docs-twitter-github.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\example-sites\8020select.png">
+      <PackagePath>assets\img\example-sites\8020select.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\example-sites\adoptahydrant.png">
+      <PackagePath>assets\img\example-sites\adoptahydrant.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\example-sites\breakingnews.png">
+      <PackagePath>assets\img\example-sites\breakingnews.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\example-sites\fleetio.png">
+      <PackagePath>assets\img\example-sites\fleetio.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\example-sites\gathercontent.png">
+      <PackagePath>assets\img\example-sites\gathercontent.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\example-sites\jshint.png">
+      <PackagePath>assets\img\example-sites\jshint.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\example-sites\kippt.png">
+      <PackagePath>assets\img\example-sites\kippt.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\example-sites\soundready.png">
+      <PackagePath>assets\img\example-sites\soundready.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\examples\bootstrap-example-carousel.png">
+      <PackagePath>assets\img\examples\bootstrap-example-carousel.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\examples\bootstrap-example-marketing-narrow.png">
+      <PackagePath>assets\img\examples\bootstrap-example-marketing-narrow.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\examples\bootstrap-example-signin.png">
+      <PackagePath>assets\img\examples\bootstrap-example-signin.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\examples\bootstrap-example-sticky-footer.png">
+      <PackagePath>assets\img\examples\bootstrap-example-sticky-footer.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\examples\browser-icon-chrome.png">
+      <PackagePath>assets\img\examples\browser-icon-chrome.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\examples\browser-icon-firefox.png">
+      <PackagePath>assets\img\examples\browser-icon-firefox.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\examples\browser-icon-safari.png">
+      <PackagePath>assets\img\examples\browser-icon-safari.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\glyphicons-halflings-white.png">
+      <PackagePath>assets\img\glyphicons-halflings-white.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\glyphicons-halflings.png">
+      <PackagePath>assets\img\glyphicons-halflings.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\grid-baseline-20px.png">
+      <PackagePath>assets\img\grid-baseline-20px.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\less-logo-large.png">
+      <PackagePath>assets\img\less-logo-large.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\responsive-illustrations.png">
+      <PackagePath>assets\img\responsive-illustrations.png</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-12T00:34:56.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-12T00:36:26.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-12T00:44:35.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-12T00:38:08.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\ico\favicon.ico">
+      <PackagePath>assets\ico\favicon.ico</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\bootstrap-mdo-sfmoma-01.jpg">
+      <PackagePath>assets\img\bootstrap-mdo-sfmoma-01.jpg</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\bootstrap-mdo-sfmoma-02.jpg">
+      <PackagePath>assets\img\bootstrap-mdo-sfmoma-02.jpg</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\bootstrap-mdo-sfmoma-03.jpg">
+      <PackagePath>assets\img\bootstrap-mdo-sfmoma-03.jpg</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\examples\bootstrap-example-fluid.jpg">
+      <PackagePath>assets\img\examples\bootstrap-example-fluid.jpg</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\examples\bootstrap-example-hero.jpg">
+      <PackagePath>assets\img\examples\bootstrap-example-hero.jpg</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\examples\bootstrap-example-starter.jpg">
+      <PackagePath>assets\img\examples\bootstrap-example-starter.jpg</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\examples\slide-01.jpg">
+      <PackagePath>assets\img\examples\slide-01.jpg</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\examples\slide-02.jpg">
+      <PackagePath>assets\img\examples\slide-02.jpg</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\img\examples\slide-03.jpg">
+      <PackagePath>assets\img\examples\slide-03.jpg</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\bootstrap-limit.js">
+      <PackagePath>assets\js\bootstrap-limit.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\bootstrap.js">
+      <PackagePath>assets\js\bootstrap.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\bootstrap.min.js">
+      <PackagePath>assets\js\bootstrap.min.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\excanvas.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\excanvas.js</PackagePath>
+      <Modified>2013-03-12T05:33:58.270</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\excanvas.min.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\excanvas.min.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\jquery.colorhelpers.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\jquery.colorhelpers.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\jquery.flot.crosshair.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\jquery.flot.crosshair.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\jquery.flot.fillbetween.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\jquery.flot.fillbetween.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\jquery.flot.image.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\jquery.flot.image.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\jquery.flot.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\jquery.flot.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\jquery.flot.navigate.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\jquery.flot.navigate.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\jquery.flot.pie.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\jquery.flot.pie.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\jquery.flot.resize.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\jquery.flot.resize.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.150</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\jquery.flot.selection.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\jquery.flot.selection.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\jquery.flot.stack.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\jquery.flot.stack.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\jquery.flot.symbol.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\jquery.flot.symbol.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\jquery.flot.threshold.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\jquery.flot.threshold.js</PackagePath>
+      <Modified>2013-03-12T05:29:04.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\jquery.js">
+      <PackagePath>assets\js\flot-flot-f0e78fc\jquery.js</PackagePath>
+      <Modified>2013-03-12T05:14:39.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\jquery-1.9.1.min.js">
+      <PackagePath>assets\js\jquery-1.9.1.min.js</PackagePath>
+      <Modified>2013-03-12T05:13:57.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\jquery.flot.js">
+      <PackagePath>assets\js\jquery.flot.js</PackagePath>
+      <Modified>2013-03-12T05:13:56.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\BigInt.js">
+      <PackagePath>BigInt.js</PackagePath>
+      <Modified>2013-03-12T05:12:59.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\game.js">
+      <PackagePath>game.js</PackagePath>
+      <Modified>2013-03-12T05:13:20.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-03-14T04:08:42.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\LICENSE.txt">
+      <PackagePath>assets\js\flot-flot-f0e78fc\LICENSE.txt</PackagePath>
+      <Modified>2011-03-22T07:51:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\NEWS.txt">
+      <PackagePath>assets\js\flot-flot-f0e78fc\NEWS.txt</PackagePath>
+      <Modified>2011-03-22T07:51:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\PLUGINS.txt">
+      <PackagePath>assets\js\flot-flot-f0e78fc\PLUGINS.txt</PackagePath>
+      <Modified>2011-03-22T07:51:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\README.txt">
+      <PackagePath>assets\js\flot-flot-f0e78fc\README.txt</PackagePath>
+      <Modified>2011-03-22T07:51:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\js\flot-flot-f0e78fc\Makefile">
+      <PackagePath>assets\js\flot-flot-f0e78fc\Makefile</PackagePath>
+      <Modified>2011-03-22T07:51:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\accordion.less">
+      <PackagePath>assets\less\accordion.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\alerts.less">
+      <PackagePath>assets\less\alerts.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\bootstrap.less">
+      <PackagePath>assets\less\bootstrap.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\breadcrumbs.less">
+      <PackagePath>assets\less\breadcrumbs.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\button-groups.less">
+      <PackagePath>assets\less\button-groups.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\buttons.less">
+      <PackagePath>assets\less\buttons.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\carousel.less">
+      <PackagePath>assets\less\carousel.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\close.less">
+      <PackagePath>assets\less\close.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\code.less">
+      <PackagePath>assets\less\code.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\component-animations.less">
+      <PackagePath>assets\less\component-animations.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\dropdowns.less">
+      <PackagePath>assets\less\dropdowns.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\forms.less">
+      <PackagePath>assets\less\forms.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\grid.less">
+      <PackagePath>assets\less\grid.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\hero-unit.less">
+      <PackagePath>assets\less\hero-unit.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\labels-badges.less">
+      <PackagePath>assets\less\labels-badges.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\layouts.less">
+      <PackagePath>assets\less\layouts.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\media.less">
+      <PackagePath>assets\less\media.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\mixins.less">
+      <PackagePath>assets\less\mixins.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\modals.less">
+      <PackagePath>assets\less\modals.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\navbar.less">
+      <PackagePath>assets\less\navbar.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\navs.less">
+      <PackagePath>assets\less\navs.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\pager.less">
+      <PackagePath>assets\less\pager.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\pagination.less">
+      <PackagePath>assets\less\pagination.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\popovers.less">
+      <PackagePath>assets\less\popovers.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\progress-bars.less">
+      <PackagePath>assets\less\progress-bars.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\reset.less">
+      <PackagePath>assets\less\reset.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\responsive-1200px-min.less">
+      <PackagePath>assets\less\responsive-1200px-min.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\responsive-767px-max.less">
+      <PackagePath>assets\less\responsive-767px-max.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\responsive-768px-979px.less">
+      <PackagePath>assets\less\responsive-768px-979px.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\responsive-navbar.less">
+      <PackagePath>assets\less\responsive-navbar.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\responsive-utilities.less">
+      <PackagePath>assets\less\responsive-utilities.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\responsive.less">
+      <PackagePath>assets\less\responsive.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\scaffolding.less">
+      <PackagePath>assets\less\scaffolding.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\sprites.less">
+      <PackagePath>assets\less\sprites.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\tables.less">
+      <PackagePath>assets\less\tables.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\thumbnails.less">
+      <PackagePath>assets\less\thumbnails.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\tooltip.less">
+      <PackagePath>assets\less\tooltip.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\type.less">
+      <PackagePath>assets\less\type.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\utilities.less">
+      <PackagePath>assets\less\utilities.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\variables.less">
+      <PackagePath>assets\less\variables.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\assets\less\wells.less">
+      <PackagePath>assets\less\wells.less</PackagePath>
+      <Modified>2013-01-16T12:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-03-12T04:56:02.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\privacy.html">
+      <PackagePath>privacy.html</PackagePath>
+      <Modified>2013-03-12T05:01:15.718</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\growth\growth\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-03-12T05:55:56.744</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

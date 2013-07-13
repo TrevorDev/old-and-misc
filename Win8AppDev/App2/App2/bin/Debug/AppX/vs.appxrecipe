@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>TREVORDEV</Machine>
+    <WindowsUser>Trev</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>E60C822FEF89BCF3E4BDEE3B14B39F58947D3DF61C827A8626F8146DBC733422</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>41284TrevorDev.IceCreamDefender_1.0.0.1_neutral__fsvm5rpq6vbj4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>41284TrevorDev.IceCreamDefender_fsvm5rpq6vbj4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>41284TrevorDev.IceCreamDefender</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=02E1AA33-5B2A-40DA-A091-70C4D10A4B2E</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Dev\App2\App2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-10T03:54:34.324</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\References\CommonConfiguration\neutral\MicrosoftAdvertising.winmd">
+      <PackagePath>MicrosoftAdvertising.winmd</PackagePath>
+      <Modified>2013-01-24T15:28:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\ad.js">
+      <PackagePath>MSAdvertisingJS\ads\ad.js</PackagePath>
+      <Modified>2013-01-24T14:37:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\CommonConfiguration\neutral\MSAdvertisingJS\ads\bootstrap.js">
+      <PackagePath>MSAdvertisingJS\ads\bootstrap.js</PackagePath>
+      <Modified>2013-01-24T14:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\CommonConfiguration\neutral\MSAdvertisingJS\ads\ormma.js">
+      <PackagePath>MSAdvertisingJS\ads\ormma.js</PackagePath>
+      <Modified>2013-01-24T14:37:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\CommonConfiguration\neutral\MSAdvertisingJS\ads\bootstrap.html">
+      <PackagePath>MSAdvertisingJS\ads\bootstrap.html</PackagePath>
+      <Modified>2013-01-24T14:37:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.12x12.png">
+      <PackagePath>MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.12x12.png</PackagePath>
+      <Modified>2013-01-24T14:37:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.16x16.png">
+      <PackagePath>MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol.icon.16x16.png</PackagePath>
+      <Modified>2013-01-24T14:37:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSAdvertisingJS\6.1\Redist\debug\neutral\MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol_oam.xml">
+      <PackagePath>MSAdvertisingJS\ads\metadata\microsoftnsjs.advertising.adcontrol_oam.xml</PackagePath>
+      <Modified>2013-01-24T14:37:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-04-09T01:34:58.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\policy.html">
+      <PackagePath>policy.html</PackagePath>
+      <Modified>2013-04-09T01:00:57.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-08T21:41:21.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-08T20:59:11.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-08T21:01:09.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\images\sprites\bad1.png">
+      <PackagePath>images\sprites\bad1.png</PackagePath>
+      <Modified>2013-04-07T20:11:09.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\images\sprites\eyeIceCream.png">
+      <PackagePath>images\sprites\eyeIceCream.png</PackagePath>
+      <Modified>2013-04-08T22:02:58.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\images\sprites\icecream.png">
+      <PackagePath>images\sprites\icecream.png</PackagePath>
+      <Modified>2013-04-07T19:48:15.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\images\sprites\money.png">
+      <PackagePath>images\sprites\money.png</PackagePath>
+      <Modified>2013-04-08T04:04:03.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\images\sprites\player.png">
+      <PackagePath>images\sprites\player.png</PackagePath>
+      <Modified>2013-04-07T03:43:00.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-08T21:01:41.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\images\sprites\explode.wav">
+      <PackagePath>images\sprites\explode.wav</PackagePath>
+      <Modified>2013-04-09T00:29:34.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\images\sprites\hit.wav">
+      <PackagePath>images\sprites\hit.wav</PackagePath>
+      <Modified>2013-04-08T20:16:20.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\images\sprites\shoot.wav">
+      <PackagePath>images\sprites\shoot.wav</PackagePath>
+      <Modified>2013-04-08T19:53:10.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\js\CreateJs\collision.js">
+      <PackagePath>js\CreateJs\collision.js</PackagePath>
+      <Modified>2013-04-08T02:38:01.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\js\CreateJs\create.js">
+      <PackagePath>js\CreateJs\create.js</PackagePath>
+      <Modified>2013-04-07T23:37:38.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-04-10T03:46:16.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\js\jquery.js">
+      <PackagePath>js\jquery.js</PackagePath>
+      <Modified>2013-04-08T01:19:10.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-04-08T21:11:59.485</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Dev\App2\App2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-04-10T03:54:33.615</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

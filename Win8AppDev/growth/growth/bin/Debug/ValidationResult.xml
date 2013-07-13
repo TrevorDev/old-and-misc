@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
+<REPORT OVERALL_RESULT="PASS" VERSION="2.0.9200" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsStore" PUBLISHER_DISPLAY_NAME="TrevorDev" OSVERSION="6.2.9200.0" OS="Microsoft Windows 8 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1033" VALIDATION_TYPE="CommandLine" ReportGenerationTime="3/11/2013 10:47:36 PM" ID="658f50a69622df48211ad61a14bde889">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="1" TITLE="Clean reversible install test" RATIONALE="A clean, reversible, installation allows users to successfully manage (deploy, and remove) applications on their system." />
+    <REQUIREMENT NUMBER="2" TITLE="Install to the correct folders test" RATIONALE="Windows provides specific locations in the file system to store programs and software components, shared application data, and application data specific to a user." />
+    <REQUIREMENT NUMBER="3" TITLE="Digitally signed file test" RATIONALE="An Authenticode digital signature allows users to be sure that the software is genuine. It also allows detection if a file has been tampered with e.g. infected by a virus." />
+    <REQUIREMENT NUMBER="4" TITLE="Support x64 Windows test" RATIONALE="To maintain compatibility with 64-bit versions of Windows, it is necessary that applications should natively support 64-bit or at minimum 32-bit Windows based applications to run seamlessly on 64-bit." />
+    <REQUIREMENT NUMBER="5" TITLE="OS version checking test" RATIONALE="Applications must not perform version checks for equality (== 5.1). If you need a specific feature, check whether the feature is available. If you need Windows XP, check for Windows XP or later (&gt;= 5.1), This way, your detection code will continue to work on future versions of Windows. Driver installers and uninstall modules should never check the OS version." />
+    <REQUIREMENT NUMBER="6" TITLE="User account control (UAC) test" RATIONALE="Most applications do not require administrator privileges at run time, and should be just fine running as a standard-user. Windows applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application." />
+    <REQUIREMENT NUMBER="7" TITLE="Adhere to system restart manager messages" RATIONALE="In a critical shutdown, applications that return FALSE to WM_QUERYENDSESSION will be sent WM_ENDSESSION and closed, while those that time out in response to WM_QUERYENDSESSION will be terminated." />
+    <REQUIREMENT NUMBER="8" TITLE="Safe mode test" RATIONALE="By default, most drivers and services that did not come preinstalled with Windows are not started in Safe Mode. They should remain disabled unless they are needed for basic operations of the system or for diagnostic and recovery purposes." />
+    <REQUIREMENT NUMBER="9" TITLE="Multiuser session test" RATIONALE="Windows users should be able to run concurrent sessions without conflict or disruption.  Applications must ensure that when running in multiple sessions either locally or remotely, the normal functionality of the application should not be impacted. Application settings and data files should not be persisted across users. A user’s privacy and preferences should be isolated to the user’s session." />
+    <REQUIREMENT NUMBER="10" TITLE="Crashes and hangs test" RATIONALE="Application failures such as crashes and hangs are a major disruption to users and cause frustration. Eliminating such failures improves application stability and reliability, and overall, provides users with a better application experience.">
+      <TEST INDEX="47" NAME="App launch tests" DESCRIPTION="App launch tests." EXECUTIONTIME="00h:00m:22s.06ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="21" NAME="Crashes and hangs" DESCRIPTION="Do not crash or hang during the testing process." EXECUTIONTIME="00h:00m:04s.74ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="11" TITLE="Compatibility and resiliency test" RATIONALE="When Windows detects that an application has operated in an incompatible manner, it applies a compatibility fix that causes the application to behave correctly, ensuring a positive user experience. Applications should not rely on this behavior since it is only provided to allow legacy applications to work correctly on Windows." />
+    <REQUIREMENT NUMBER="12" TITLE="App manifest compliance test" RATIONALE="The package manifest was missing one or more required attributes.">
+      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:02s.49ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="13" TITLE="Windows security best practices test" RATIONALE="An application should not change the default Windows security settings." />
+    <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
+      <TEST INDEX="33" NAME="Binary analyzer" DESCRIPTION="Analysis of security features enabled on binaries" EXECUTIONTIME="00h:00m:01s.65ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="Supported API test" RATIONALE="The application should only refer to the APIs allowed by the Windows SDK for Windows Store Apps.">
+      <TEST INDEX="38" NAME="Supported APIs" DESCRIPTION="Windows Store App must only use supported platform APIs." EXECUTIONTIME="00h:00m:02s.79ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="17" TITLE="Performance test" RATIONALE="The application should have a fast and responsive launch and suspend experience while consuming a reasonable amount of system resources (CPU, File IO, Memory etc.) to enable fast switching and multitasking between previously unopened applications.">
+      <TEST INDEX="50" NAME="Bytecode generation" DESCRIPTION="Byte code generation should be able to complete successfully for packages containing an HTML5 Windows Store app." EXECUTIONTIME="00h:00m:01s.51ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="43" NAME="Performance launch" DESCRIPTION="Application should have a responsive launch time with reasonable CPU, File IO and Memory usage" EXECUTIONTIME="00h:01m:06s.25ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="44" NAME="Performance suspend" DESCRIPTION="Application should have a responsive suspend with reasonable CPU and File IO usage" EXECUTIONTIME="00h:01m:14s.22ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="19" TITLE="App manifest resources test" RATIONALE="The Appx Package Manifest should have valid resources defined in the resources.pri file, as per the Appx Packaging Specification and Appx Manifest Schema.">
+      <TEST INDEX="45" NAME="App resources validation" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.60ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="Debug configuration test" RATIONALE="The App should not install any debug binaries.">
+      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:02s.45ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="File encoding" RATIONALE="Packages containing an HTML5 Windows Store app must have correct file encoding.">
+      <TEST INDEX="49" NAME="UTF-8 file encoding" DESCRIPTION="Packages containing an HTML5 Windows Store app must have correct file encoding." EXECUTIONTIME="00h:00m:01s.47ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="22" TITLE="Direct3D feature level support" RATIONALE="Applications must render content on Direct3D feature level 9.1 hardware.">
+      <TEST INDEX="51" NAME="Direct3D feature level support" DESCRIPTION="Applications must render content on Direct3D feature level 9.1 hardware." EXECUTIONTIME="00h:00m:00s.70ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
+      <TEST INDEX="52" NAME="Special Use Capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:01s.42ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute test" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:01s.10ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="57" NAME="Type location test" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:00s.61ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="55" NAME="Type name case-sensitivity test" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:00s.61ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="54" NAME="Type name correctness test" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:00s.60ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="58" NAME="General metadata correctness test" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:01s.09ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="53" NAME="Properties test" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.61ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="41284TrevorDev.Growth" Type="Application" Source="AppxPackage" Publisher="CN=02E1AA33-5B2A-40DA-A091-70C4D10A4B2E" Version="1.0.0.5" Language="1033" OnSystemDrive="true" RootDirPath="C:\Program Files\WindowsApps\41284TrevorDev.Growth_1.0.0.5_neutral__fsvm5rpq6vbj4" PathEvidenceId="0x1be0" RNP="0x1" DNP="0xd" EvidenceId="0x1be0" Id="0000d8b9a9c1c002101701e1cb21fc69f1a500000904">
+        <Indicators>
+          <DirectoryIndicators>
+            <Directory Name="41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4" RNP="0x9" DNP="0xb" UniqueId="0x1be1" Id="000005eef42410f4f0058e050097cdfc00c765e6a5c9" />
+            <Directory Name="js" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\js" RNP="0x9" DNP="0xb" UniqueId="0x1c05" Id="0000ed830a2cad918e620bb3cae846c3985ea8ddae26" />
+            <Directory Name="flot-flot-f0e78fc" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0x9" DNP="0xb" UniqueId="0x1bf2" Id="0000cf5e6bd4edc53e515b8934a1020f710995a65931" />
+            <Directory Name="assets" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets" RNP="0x9" DNP="0xb" UniqueId="0x1be6" Id="0000c6e5191bc603f552ebb610df9a7909abf27d7b52" />
+            <Directory Name="js" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js" RNP="0x9" DNP="0xb" UniqueId="0x1bec" Id="0000ed830a2cad918e620bb3cae846c3985ea8ddae26" />
+          </DirectoryIndicators>
+          <PackageManifestIndicator>
+            <PackageManifest PackageFullName="41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4" />
+            <Identity Name="41284TrevorDev.Growth" Version="1.0.0.5" Publisher="CN=02E1AA33-5B2A-40DA-A091-70C4D10A4B2E" ProcessorArchitecture="neutral" />
+            <Dependencies>
+              <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.8514.0" />
+            </Dependencies>
+            <Properties>
+              <DisplayName>Growth</DisplayName>
+              <PublisherDisplayName>TrevorDev</PublisherDisplayName>
+              <Logo>images\storelogo.png</Logo>
+            </Properties>
+            <Resources>
+              <Resource Language="EN-US" />
+            </Resources>
+            <Prerequisites>
+              <OSMinVersion>6.2.1</OSMinVersion>
+              <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+            </Prerequisites>
+            <Capabilities>
+              <Capability Name="internetClient" />
+            </Capabilities>
+          </PackageManifestIndicator>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="00001374f62295edb42768e8ef7f4cdcdc8f4415c993">
+            <File Name="default.html" Id="0000b0e50534f341261d6cb590d415dc7f86ace0e5cd" ShortName="DEFAUL~1.HTM" Size="0x324c" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\default.html" LongPathHash="00006c9d81b1c15d982760bf53944fc9a68d39e2578d" UniqueId="0x1be3" />
+            <File Name="jquery-1.9.1.min.js" Id="00006ff0e24c69e40991b19d81c7017c85a7e307fd11" ShortName="JQUERY~2.JS" Size="0x5bc8c" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\jquery-1.9.1.min.js" LongPathHash="000060823a92a7ff781d651a5e19438798c53027c963" UniqueId="0x1bf0" />
+            <File Name="BigInt.js" Id="000096d1b0a86f2091707e1b321b5dabc15998c09d0b" Size="0x3396" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\bigint.js" LongPathHash="00006b9d76aabba18c3c4e0e3e4fa2cb0c315ff1579b" UniqueId="0x1be2" />
+            <File Name="excanvas.js" Id="000068a494bdfe3620445a194728def89911eb7a5f30" Size="0xa33b" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\excanvas.js" LongPathHash="000000c9cb6fc3bd8382e70c3cadc56080f4bdd9fd70" UniqueId="0x1bf3" />
+            <File Name="jquery.colorhelpers.js" Id="000016db1e145a97c1f89bd05717cd63a7ca71c008d5" ShortName="JQUERY~1.JS" Size="0x17e1" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\jquery.colorhelpers.js" LongPathHash="0000e5213f246fd856ceedd4dca0dab0ccb343776026" UniqueId="0x1bf5" />
+            <File Name="jquery.flot.crosshair.js" Id="0000a3b606583b4566e329ba51d62808e666005e95ad" ShortName="JQUERY~2.JS" Size="0x144a" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\jquery.flot.crosshair.js" LongPathHash="00000afaaccc9aee27325c91e2a2e986e7032e9f609b" UniqueId="0x1bf6" />
+            <File Name="jquery.flot.fillbetween.js" Id="000027da31b3f2de0dc2d4d3e2d120eb54428d5a4dff" ShortName="JQUERY~3.JS" Size="0x1a76" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\jquery.flot.fillbetween.js" LongPathHash="0000e171692108b6a9039570b686c5d86e1da3b038e2" UniqueId="0x1bf7" />
+            <File Name="jquery.flot.image.js" Id="000022c6ba9c651e95024fdd78d8f0a8aec261e5b921" ShortName="JQUERY~4.JS" Size="0x1cba" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\jquery.flot.image.js" LongPathHash="0000308633a964b779e8b655f0a78f1ed84afd1b022a" UniqueId="0x1bf8" />
+            <File Name="jquery.flot.js" Id="0000e19e4dab32ddd214cae8cc9fc8cfe1176ad4820a" ShortName="JQF910~1.JS" Size="0x1a130" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\jquery.flot.js" LongPathHash="0000f1a857bcf93825d2ca59d2ed4348c0aee2ccb42d" UniqueId="0x1bf9" />
+            <File Name="privacy.html" Id="0000249692e1444221d102a9c5ad300e2a5ae86fe33e" ShortName="PRIVAC~1.HTM" Size="0x573" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\privacy.html" LongPathHash="0000b4c8fe4cfe2569dde84d3dd8830615575b85d54f" UniqueId="0x1be5" />
+            <File Name="jquery.flot.navigate.js" Id="000096ddff427747649079a0287bba4ca0e686ea30f4" ShortName="JQ207B~1.JS" Size="0x3545" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\jquery.flot.navigate.js" LongPathHash="0000f4d39ed16c9810f89841687b86d0c8b5ad2b4be9" UniqueId="0x1bfa" />
+            <File Name="jquery.flot.pie.js" Id="0000e5645a520f0e117e9086bef4c93da45909ddeb11" ShortName="JQ2616~1.JS" Size="0x5840" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\jquery.flot.pie.js" LongPathHash="00008aab5070a0e803842e20750d2e4cfb182cce318c" UniqueId="0x1bfb" />
+            <File Name="jquery.flot.resize.js" Id="000038c93b57574db8030019dc74943a98bdfd69d99f" ShortName="JQ375D~1.JS" Size="0x99d" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\jquery.flot.resize.js" LongPathHash="0000707490e60e3dd43e466dc5184e088f356064b380" UniqueId="0x1bfc" />
+            <File Name="jquery.flot.selection.js" Id="000033fda4cc157675556b99efe45a6fde2bfb3efd9d" ShortName="JQ2041~1.JS" Size="0x2ef5" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\jquery.flot.selection.js" LongPathHash="0000cbd815b854650f2ec2c9b8fb78465fb2cbd654cd" UniqueId="0x1bfd" />
+            <File Name="bootstrap.js" Id="0000c4da34daad04ad37ce30759ab3e8616568ed8d84" ShortName="BOOTST~1.JS" Size="0xf047" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\bootstrap.js" LongPathHash="00009683371a9c8d1b98376359895c93706fc0401de8" UniqueId="0x1bee" />
+            <File Name="jquery.flot.stack.js" Id="0000f1fa6fd5dfdca6e16a991d9a8139de200c10f134" ShortName="JQ2147~1.JS" Size="0x1b3b" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\jquery.flot.stack.js" LongPathHash="00004a39a538c7dd28a2c5170dda8c042dd8f8689c50" UniqueId="0x1bfe" />
+            <File Name="jquery.flot.symbol.js" Id="000081da8c3a0176cdfff32753c6675d826dcf23e94d" ShortName="JQF234~1.JS" Size="0x98c" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\jquery.flot.symbol.js" LongPathHash="0000e768673c55797d9da542826086e6776bcee766fd" UniqueId="0x1bff" />
+            <File Name="jquery.flot.threshold.js" Id="0000c65e39b9cb684560e60e53044f988d4412e6ece0" ShortName="JQA909~1.JS" Size="0xcde" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\jquery.flot.threshold.js" LongPathHash="00006aea099dc8753da7a1f3f85ea6b70595e914ed21" UniqueId="0x1c00" />
+            <File Name="jquery.js" Id="0000edd67ccdcfad6c2923b8d081a6b150192f1fcb5c" Size="0x34f0b" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\jquery.js" LongPathHash="00007539de930904ca74b120163b4ca0052318797471" UniqueId="0x1c01" />
+            <File Name="jquery.flot.js" Id="0000e19e4dab32ddd214cae8cc9fc8cfe1176ad4820a" ShortName="JQUERY~1.JS" Size="0x1a130" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\jquery.flot.js" LongPathHash="0000581c1c135b8835b8c82f15bfe436c757eceba8b0" UniqueId="0x1bf1" />
+            <File Name="excanvas.min.js" Id="00003ceb5d68e0de58efef0385dda329ca4069ef54c6" ShortName="EXCANV~1.JS" Size="0x4bda" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\flot-flot-f0e78fc\excanvas.min.js" LongPathHash="00004e77f3adedc0dc0c3e196dfb610ede94b5f89b07" UniqueId="0x1bf4" />
+            <File Name="default.js" Id="00001c5eb84da2aa89908075ea76222fe9bde5531374" Size="0x1164" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\js\default.js" LongPathHash="00009aa4874195c61bf932294cc08d1dfcf23033b39b" UniqueId="0x1c06" />
+            <File Name="bootstrap-limit.js" Id="00007954f69ae7f9f274c765e1115656174fb967fa9c" ShortName="BOOTST~3.JS" Size="0xc7b" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\bootstrap-limit.js" LongPathHash="000054b1b03e9154b9f9f4c010bc1d48a4bb51cf42e6" UniqueId="0x1bed" />
+            <File Name="bootstrap.min.js" Id="0000b02d1e43111bc30282230533b772ea60046a6634" ShortName="BOOTST~2.JS" Size="0x6f05" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\assets\js\bootstrap.min.js" LongPathHash="0000305a3017fcf67d010575b4f73bda3a2c38cd0477" UniqueId="0x1bef" />
+            <File Name="game.js" Id="00001d90f36641492e35562537da5662b82ea6077118" Size="0x49c1" BinaryType="UNKNOWN" Created="03/12/2013 05:44:13" Modified="03/12/2013 05:44:13" Path="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\41284trevordev.growth_1.0.0.5_neutral__fsvm5rpq6vbj4\game.js" LongPathHash="00002eb7aa4dc6203b4a4667ae5f82be27bd6dfd79b8" UniqueId="0x1be4" />
+          </Files>
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis ProgramId="0000d8b9a9c1c002101701e1cb21fc69f1a500000904" AnalysisVersion="1.54" DictionaryVersion="1.6" Type="Package" Id="41284TrevorDev.Growth_1.0.0.5_neutral__fsvm5rpq6vbj4">
+      <AitFile ErrorCode="0" Name="jquery.colorhelpers.js" Id="000016db1e145a97c1f89bd05717cd63a7ca71c008d5" />
+      <AitFile ErrorCode="0" Name="default.js" Id="00001c5eb84da2aa89908075ea76222fe9bde5531374">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Application" />
+          <AitFeature Name="WinJS.Application.sessionState" />
+          <AitFeature Name="WinJS.Binding.optimizeBindingReferences" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.populateSettings" />
+          <AitFeature Name="WinJS.UI.processAll" />
+          <AitFeature Name="Windows.ApplicationModel.Activation" />
+          <AitFeature Name="Windows.Storage.ApplicationData.current" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="game.js" Id="00001d90f36641492e35562537da5662b82ea6077118" />
+      <AitFile ErrorCode="0" Name="jquery.flot.image.js" Id="000022c6ba9c651e95024fdd78d8f0a8aec261e5b921" />
+      <AitFile ErrorCode="0" Name="privacy.html" Id="0000249692e1444221d102a9c5ad300e2a5ae86fe33e">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.SettingsFlyout" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.show" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery.flot.fillbetween.js" Id="000027da31b3f2de0dc2d4d3e2d120eb54428d5a4dff" />
+      <AitFile ErrorCode="0" Name="jquery.flot.selection.js" Id="000033fda4cc157675556b99efe45a6fde2bfb3efd9d" />
+      <AitFile ErrorCode="0" Name="jquery.flot.resize.js" Id="000038c93b57574db8030019dc74943a98bdfd69d99f" />
+      <AitFile ErrorCode="0" Name="excanvas.min.js" Id="00003ceb5d68e0de58efef0385dda329ca4069ef54c6" />
+      <AitFile ErrorCode="0" Name="excanvas.js" Id="000068a494bdfe3620445a194728def89911eb7a5f30" />
+      <AitFile ErrorCode="0" Name="jquery-1.9.1.min.js" Id="00006ff0e24c69e40991b19d81c7017c85a7e307fd11" />
+      <AitFile ErrorCode="0" Name="bootstrap-limit.js" Id="00007954f69ae7f9f274c765e1115656174fb967fa9c" />
+      <AitFile ErrorCode="0" Name="jquery.flot.symbol.js" Id="000081da8c3a0176cdfff32753c6675d826dcf23e94d" />
+      <AitFile ErrorCode="0" Name="BigInt.js" Id="000096d1b0a86f2091707e1b321b5dabc15998c09d0b" />
+      <AitFile ErrorCode="0" Name="jquery.flot.navigate.js" Id="000096ddff427747649079a0287bba4ca0e686ea30f4" />
+      <AitFile ErrorCode="0" Name="jquery.flot.crosshair.js" Id="0000a3b606583b4566e329ba51d62808e666005e95ad" />
+      <AitFile ErrorCode="0" Name="bootstrap.min.js" Id="0000b02d1e43111bc30282230533b772ea60046a6634" />
+      <AitFile ErrorCode="0" Name="default.html" Id="0000b0e50534f341261d6cb590d415dc7f86ace0e5cd">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="bootstrap.js" Id="0000c4da34daad04ad37ce30759ab3e8616568ed8d84" />
+      <AitFile ErrorCode="0" Name="jquery.flot.threshold.js" Id="0000c65e39b9cb684560e60e53044f988d4412e6ece0" />
+      <AitFile ErrorCode="0" Name="jquery.flot.js" Id="0000e19e4dab32ddd214cae8cc9fc8cfe1176ad4820a" />
+      <AitFile ErrorCode="0" Name="jquery.flot.pie.js" Id="0000e5645a520f0e117e9086bef4c93da45909ddeb11" />
+      <AitFile ErrorCode="0" Name="jquery.js" Id="0000edd67ccdcfad6c2923b8d081a6b150192f1fcb5c" />
+      <AitFile ErrorCode="0" Name="jquery.flot.stack.js" Id="0000f1fa6fd5dfdca6e16a991d9a8139de200c10f134" />
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>
