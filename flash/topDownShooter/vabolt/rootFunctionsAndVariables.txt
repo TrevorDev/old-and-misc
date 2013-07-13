@@ -1,0 +1,183 @@
+//################CHANGE THIS VARIABLES################
+var gameWidth:Number = 550;                                    //Your game width
+var gameHeight:Number = 400;                                   //Your game height
+var gameName:String = "GameName";                              //Enter the game name whithout spaces
+var preRollCPMStarContentSpotID:String = "3423QBC31F04C";      //Change with your Pre roll content spot id (provided by CPMStar)
+var interLevelCPMStarContentSpotID:String = "3423QBC31F04C";   //Change with your Inter Level content spot id (provided by CPMStar)
+//#####################################################
+
+//#######################ROOT FUNCTIONS##############################
+Stage.scaleMode = "showAll";
+function initializeLogo(pMc:MovieClip, pSplashLogo:Boolean):Void{
+	if (pSplashLogo){
+		_root.initializeLogo(pMc.VABOLT, false);
+		pMc.SHOOTING.onRelease = function(){
+			getURL("http://www.vabolt.com/shooting.html?utm_source="+_root.gameName+"&utm_medium=Games&utm_campaign=logo", "_blank");
+		}
+		pMc.TDEFENSE.onRelease = function(){
+			getURL("http://www.vabolt.com/tower-defense.html?utm_source="+_root.gameName+"&utm_medium=Games&utm_campaign=logo", "_blank");
+		}
+		pMc.STRATEGY.onRelease = function(){
+			getURL("http://www.vabolt.com/strategy.html?utm_source="+_root.gameName+"&utm_medium=Games&utm_campaign=logo", "_blank");
+		}
+		pMc.RPG.onRelease = function(){
+			getURL("http://www.vabolt.com/adventure-rpg.html?utm_source="+_root.gameName+"&utm_medium=Games&utm_campaign=logo", "_blank");
+		}
+	}else{
+		pMc.useHandCursor = true;
+		pMc.buttonMode = true;
+		pMc.onRelease = function(){		
+			getURL("http://www.vabolt.com/?utm_source="+_root.gameName+"&utm_medium=Games&utm_campaign=logo", "_blank");
+		}
+	}
+}
+
+function mountNumberOnMc(pVal:Number, pHolder:MovieClip, pMcName:String):Void{
+	if (pVal > 9999){
+		pHolder[pMcName + "1"].gotoAndStop(_root.getNumFrame(pVal.toString().charAt(4)));
+		pHolder[pMcName + "2"].gotoAndStop(_root.getNumFrame(pVal.toString().charAt(3)));
+		pHolder[pMcName + "3"].gotoAndStop(_root.getNumFrame(pVal.toString().charAt(2)));
+		pHolder[pMcName + "4"].gotoAndStop(_root.getNumFrame(pVal.toString().charAt(1)));
+		pHolder[pMcName + "5"].gotoAndStop(_root.getNumFrame(pVal.toString().charAt(0)));
+	}else if (pVal > 999){
+		pHolder[pMcName + "1"].gotoAndStop(_root.getNumFrame(pVal.toString().charAt(3)));
+		pHolder[pMcName + "2"].gotoAndStop(_root.getNumFrame(pVal.toString().charAt(2)));
+		pHolder[pMcName + "3"].gotoAndStop(_root.getNumFrame(pVal.toString().charAt(1)));
+		pHolder[pMcName + "4"].gotoAndStop(_root.getNumFrame(pVal.toString().charAt(0)));
+		try{
+			pHolder[pMcName + "5"].gotoAndStop(11);
+		}catch(E:Error){}
+	}else if (pVal > 99){
+		pHolder[pMcName + "1"].gotoAndStop(_root.getNumFrame(pVal.toString().charAt(2)));
+		pHolder[pMcName + "2"].gotoAndStop(_root.getNumFrame(pVal.toString().charAt(1)));
+		pHolder[pMcName + "3"].gotoAndStop(_root.getNumFrame(pVal.toString().charAt(0)));	
+		try{
+			pHolder[pMcName + "4"].gotoAndStop(11);
+			pHolder[pMcName + "5"].gotoAndStop(11);
+		}catch(E:Error){}
+	}else if (pVal > 9){
+		pHolder[pMcName + "1"].gotoAndStop(_root.getNumFrame(pVal.toString().charAt(1)));
+		pHolder[pMcName + "2"].gotoAndStop(_root.getNumFrame(pVal.toString().charAt(0)));
+		try{
+			pHolder[pMcName + "3"].gotoAndStop(11);	
+			pHolder[pMcName + "4"].gotoAndStop(11);
+			pHolder[pMcName + "5"].gotoAndStop(11);
+		}catch(E:Error){}
+	}else{
+		pHolder[pMcName + "1"].gotoAndStop(getNumFrame(pVal.toString().charAt(0)));
+		try{
+			pHolder[pMcName + "2"].gotoAndStop(11);
+			pHolder[pMcName + "3"].gotoAndStop(11);	
+			pHolder[pMcName + "4"].gotoAndStop(11);
+			pHolder[pMcName + "5"].gotoAndStop(11);
+		}catch(E:Error){}
+	}
+}
+
+function getNumFrame(pVal:String):Number{
+	return (pVal == "0")?10:Number(pVal);
+}
+
+System.security.allowDomain("server.cpmstar.com");
+function loadAdsAt(pMc:MovieClip):Void{
+	pMc.loadMovie("http://server.cpmstar.com/adviewas2.swf?contentspotid="+_root.interLevelCPMStarContentSpotID);
+}
+//#####################################################
+
+//###################PRELOADER CODE - DON'T CHANGE###################
+var idIntervalPreloader = setInterval(timePassedFunc, 100);
+var total:Number;
+var loaded:Number;
+var timePassed:Number = 0;
+var preloaderReference:MovieClip;
+
+function showPreloaderAt(pMc:MovieClip):Void{
+	_root.preloaderReference = pMc;
+	_root.initializeLogo(_root.preloaderReference.SplashMc, true);
+
+	//PRELOADER ADS
+	_root.preloaderReference.ADS.ADS.loadMovie("http://server.cpmstar.com/adviewas2.swf?contentspotid="+_root.preRollCPMStarContentSpotID);
+	_root.preloaderReference.ADS.POWERED.onRelease = function(){
+		getURL("http://www.vabolt.com/?utm_source="+_root.gameName+"&utm_medium=Games&utm_campaign=logo", "_blank");
+	}
+		
+	_root.preloaderReference._width = _root.gameWidth;
+	_root.preloaderReference._height = _root.gameHeight;
+	_root.preloaderReference.PORC_NO_1.gotoAndStop(11);
+	_root.preloaderReference.PORC_NO_2.gotoAndStop(11);
+	_root.preloaderReference.PORC_NO_3.gotoAndStop(11);
+	_root.preloaderReference.SIZE_NO_1.gotoAndStop(11);
+	_root.preloaderReference.SIZE_NO_2.gotoAndStop(11);
+	_root.preloaderReference.SIZE_NO_3.gotoAndStop(11);
+	_root.preloaderReference.SIZE_NO_4.gotoAndStop(11);
+	_root.preloaderReference.SIZE_NO_5.gotoAndStop(11);
+	_root.preloaderReference.TOT_NO_1.gotoAndStop(11);
+	_root.preloaderReference.TOT_NO_2.gotoAndStop(11);
+	_root.preloaderReference.TOT_NO_3.gotoAndStop(11);
+	_root.preloaderReference.TOT_NO_4.gotoAndStop(11);
+	_root.preloaderReference.TOT_NO_5.gotoAndStop(11);
+	_root.preloaderReference.PLAY_BUTTON.gotoAndStop(1);
+	_root.preloaderReference.PLAY_BUTTON.useHandCursor = true;
+	_root.preloaderReference.PLAY_BUTTON.buttonMode = true;
+	_root.preloaderReference.PLAY_BUTTON.onRelease = function(){
+		if (this.currentFrame != 1){
+			gotoAndPlay(nextFrame());
+		}
+	}
+	
+	_root.preloaderReference.PLAY_BUTTON.onRollOut = function(){
+		if (this.currentFrame != 1){
+			this.gotoAndStop(2);
+		}
+	}
+
+	_root.preloaderReference.PLAY_BUTTON.onRollOver = function (){
+		if (this.currentFrame != 1){
+			this.gotoAndStop(3);
+		}
+	}
+}
+
+function timePassedFunc(){
+	_root.timePassed += 100;
+	var total:Number = _root.getBytesTotal() / 1000;
+	var loaded:Number = _root.getBytesLoaded() / 1000;		
+		
+	var Porc:Number = loaded / total;
+	if (Porc > (timePassed / 5000)){
+		Porc = (timePassed / 5000);
+	}
+	if (Porc > 1){ Porc = 1; }
+	
+	_root.preloaderReference.PRELOADER_BAR.BAR._width = Porc * 660; 	
+	_root.mountNumberOnMc(Porc * 100, _root.preloaderReference, "PORC_NO_");
+	_root.mountNumberOnMc(total, _root.preloaderReference, "SIZE_NO_");
+	_root.mountNumberOnMc(total, _root.preloaderReference, "TOT_NO_");
+		
+	if (Porc >= 1){
+		clearInterval(_root.idIntervalPreloader);
+		_root.preloaderReference.PLAY_BUTTON.gotoAndStop(2);
+	}
+}
+//#####################################################
+//###########################SPLASH SCREEN CODE - DON'T CHANGE################################
+var splashScreenReference:MovieClip;
+var idIntervalSplashScreen;
+function showSplashScreen(pMc:MovieClip):Void{
+	_root.splashScreenReference = pMc;
+	_root.splashScreenReference._width = _root.gameWidth;
+	_root.splashScreenReference._height = _root.gameHeight;
+	_root.initializeLogo(_root.splashScreenReference.SPLASH, true);
+	_root.splashScreenReference.TIME_LEFT.SECONDS.gotoAndStop(8);
+	_root.idIntervalSplashScreen = setInterval(_root.timePassedFuncSplashScreen, 1000);
+}
+
+function timePassedFuncSplashScreen():Void{
+	if (_root.splashScreenReference.TIME_LEFT.SECONDS._currentframe != 10){
+		_root.splashScreenReference.TIME_LEFT.SECONDS.gotoAndStop((_root.splashScreenReference.TIME_LEFT.SECONDS._currentframe == 1)?10:_root.splashScreenReference.TIME_LEFT.SECONDS._currentframe - 1);
+	}else{
+		clearInterval(_root.idIntervalSplashScreen);
+		nextFrame();
+	}
+}
+//#####################################################
