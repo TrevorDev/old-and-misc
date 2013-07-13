@@ -1,0 +1,1 @@
+java -jar compiler.jar --js=game.js --js_output_file=out.js
